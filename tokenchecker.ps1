@@ -57,7 +57,7 @@ Usage: Tokencheck <token> <showConnections> <trace> <help>
 
 <DisplayConnections> -> Show all connected social medias on the token
 
-<trace> -> Debug informations. It is recommanded to output the command in a text file
+<trace> -> Debug informations. Outputs it in a JSON file
 [SubParameters]
 <showBasicInfos> -> gives you the @me json output 
 <showFriends> -> gives you the relationship json output
