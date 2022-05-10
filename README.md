@@ -26,3 +26,21 @@ Usage: Tokencheck <token> <showConnections> <trace> <help>
 
 <help> -> Displays the help menu
 ```
+
+## Installation
+### Installer
+Simply put this in your Powershell terminal
+```ps1
+Invoke-RestMethod -Uri "https://raw.githubusercontent.com/TaxMachine/PowershellTokenChecker/main/ScriptInstaller.ps1" | Invoke-Expression
+```
+### Source
+Clone this repository
+```
+git clone https://github.com/TaxMachine/PowershellTokenChecker.git
+cd PowershellTokenChecker
+```
+Copy the path to the tokenchecker.ps1 and put this in your terminal
+```ps1
+Add-Content -Path $PROFILE -Value "`npath of the tokenchecker.ps1"
+```
+**KEEP THE \`n ITS A NEWLINE AND ITS IMPORTANT**
